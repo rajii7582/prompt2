@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient( to right, lightblue,rgb(85, 85, 168),darkblue); */
+}
+.page{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( to right, lightblue,rgb(85, 85, 168),rgb(96, 176, 176));
+}
+.content{
+    width: 60%;
+    height: 60%;
+    background-color: white;
+    display: flex;
+ position: absolute;
+ top: 20%;
+ left: 20%;
+ border: 2px solid black;
+ border-radius: 10px;
+}.left{
+width:40%;
+height: 100%;
+background-color: cornflowerblue;
+
+display: flex;
+gap: 5%;
+padding-top: 4%;
+
+}
+h4{
+    display: flex;
+    padding-top: 5%;
+    font-size: 120%;
+
+}
+
+.left>i{
+    margin-left: 10%;
+    padding-top: 6.5%;
+    
+
+}
+.img{
+  width: 50px;
+
+padding-top: 15%;
+position: absolute;
+top: 0%;
+left: 2%;
+
+
+}
+.right{
+ width: 70%;
+background-color: whitesmoke;
+padding-left: 15%;
+padding-bottom: 5%;
+}h2{
+   padding-left: 12%;
+   padding-bottom: 3%;
+}.sec{
+display: inline-block;
+justify-content: center;
+
+}p1{
+    font-size: 100%;
+    font-weight: 800;
+  
+}
+p2{ 
+    font-size: 100%;
+    font-weight: 800;
+}
+p3{
+    font-size: 100%;
+    font-weight: 800;
+}
+p4{
+    font-size: 100%;
+    font-weight: 800;
+}input{
+ 
+
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 4%;
+    font-size: 100%;
+}p>i{
+   font-size: 85%;
+   font-weight: 800;
+   margin-right: 2%;
+}p{
+    font-weight: 600;
+}button{
+    margin-left: 30%;
+    margin-top: 3%;
+    background-color: rgb(133, 169, 235);
+    width: 25%;
+    height: 10%;
+    border-radius: 10px;
+}select{
+    width: 50%;
+}
+@media (max-width:600px){
+    h4{
+        width: 100%;
+        font-size: 90%;
+        font-weight: 900;
+    }
+    .img{
+       display: none;
+ 
+      
+        padding-top: 30%;
+    }.left>i{
+        font-size: 90%;
+    }h2{
+        font-size: 90%;
+        font-weight: 800;
+        padding-left: 8%;
+    }.sec{
+      
+
+    }.right{
+        padding-left: 2%;
+        font-size: 80%;
+    }
+    button{
+        width: 40%;
+        margin-top: 10%;
+    }
+}
